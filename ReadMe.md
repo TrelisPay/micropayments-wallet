@@ -16,4 +16,4 @@ To use the micropayments wallet, simply log in with email. Once you have created
 
 ## Usage
 
-Use micropayments on any site supporting Trelis.
+Use micropayments on any site supporting Trelis. Small edit.
