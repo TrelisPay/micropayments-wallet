@@ -7,7 +7,7 @@ import { Web3Auth } from "@web3auth/modal";
 // import dotenv from 'dotenv'; // Import dotenv library to read .env file
 // dotenv.config(); // Load .env file
 
-await web3auth.initModal(); // Initialize the modal
+// await web3auth.initModal(); // Initialize the modal
 
 function App() {
   const [count, setCount] = useState(0)
