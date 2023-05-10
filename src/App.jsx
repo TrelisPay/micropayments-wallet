@@ -2,10 +2,32 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import { Web3Auth } from "@web3auth/modal";
 
+// import dotenv from 'dotenv'; // Import dotenv library to read .env file
+// dotenv.config(); // Load .env file
+
+await web3auth.initModal(); // Initialize the modal
 
 function App() {
   const [count, setCount] = useState(0)
+
+  const YOUR_WEB3AUTH_CLIENT_ID = 'BKjhJGrcAfTNWb-0uQkni-w34x8cVWjcCtrjvTlhLyGHTqBTdq2G4YwKTl47WQUB4V1dArb2j5FV1Qaom4dlMno';
+
+  console.log(YOUR_WEB3AUTH_CLIENT_ID); // Print the variable to the console
+
+  
+
+  // //Initialize within your constructor
+  // const web3auth = new Web3Auth({
+  //   clientId: "YOUR_WEB3AUTH_CLIENT_ID", // Get your Client ID from Web3Auth Dashboard
+  //   chainConfig: {
+  //     chainNamespace: "eip155",
+  //     chainId: "0x89", // Use 0x13881 for Mumbai Testnet
+  //   },
+  // });
+
+  
 
   return (
     <>
